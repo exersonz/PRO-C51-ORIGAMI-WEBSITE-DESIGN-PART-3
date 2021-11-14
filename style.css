@@ -1,0 +1,47 @@
+.grid img
+{
+    border: 2px solid rgb(214, 178, 243);
+    border-radius: 50px;
+}
+
+.origami
+{
+    border-radius: 20px;
+    background-color: white;
+    padding: 2px;
+    margin: 15px;
+    width: 310px;
+    height: 380px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.grid
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(161, 125, 228);
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    color: white;
+}
+
+body
+{
+    margin: 0px;
+    background-color: rgb(235, 217, 255);
+}
+
+h3, p
+{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
